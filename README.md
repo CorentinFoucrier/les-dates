@@ -1,6 +1,6 @@
 # Les dates
 
-### Psedo code (algo) pour calculer l'âge sur chaques planètes
+### Pseudo code (algo) pour calculer l'âge sur chaques planètes
 ```
 (int) anneeActuel;
 (int) anneeDeNaissance;

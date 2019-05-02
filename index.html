@@ -6,14 +6,71 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<form>
-			<label for="jour">Jour</label>
-			<input type="number" id="jour" name="jour" min="1" max="31">
+
+			<!-- <label for="jour">Jour</label>
+			<input onchange="calcAge()" type="number" id="jour" name="jour" min="1" max="31">
 			<label for="mois">Mois</label>
-			<input type="number" id="mois" name="mois" min="1" max="12">
+			<input onchange="calcAge()" type="number" id="mois" name="mois" min="1" max="12"> -->
 			<label for="annee">Année</label>
-			<input type="number" id="annee" name="annee" min="1900" max="2100">
-		</form>
+			<input onchange="calcAge()" type="number" id="annee" name="annee" value="1900" min="1900" max="2100">
+	
+		<br />
+		<table>
+			<thead>
+				<tr>
+					<th>Planètes</th>
+					<th>Periode de<br />révolution</th>
+					<th>Mon âge</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Mercure</td>
+					<td>88</td>
+					<td id="0"></td>
+				</tr>
+				<tr>
+					<td>Venus</td>
+					<td>255</td>
+					<td id="1"></td>
+				</tr>
+				<tr>
+					<td>Terre</td>
+					<td>365</td>
+					<td id="2"></td>
+				</tr>
+				<tr>
+					<td>Mars</td>
+					<td>687</td>
+					<td id="3"></td>
+				</tr>
+				<tr>
+					<td>Jupiter</td>
+					<td>4329</td>
+					<td id="4"></td>
+				</tr>
+				<tr>
+					<td>Saturne</td>
+					<td>10751</td>
+					<td id="5"></td>
+				</tr>
+				<tr>
+					<td>Uranus</td>
+					<td>30664</td>
+					<td id="6"></td>
+				</tr>
+				<tr>
+					<td>Neptune</td>
+					<td>60148</td>
+					<td id="7"></td>
+				</tr>
+				<tr>
+					<td>Pluton</td>
+					<td>90520</td>
+					<td id="8"></td>
+				</tr>
+			</tbody>
+		</table>
 		<script src="assets/js/script.js"></script>
 	</body>
 </html>

@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
-	<body>
+	<body onload="calcAge()">
 
 			<!-- <label for="jour">Jour</label>
 			<input onchange="calcAge()" type="number" id="jour" name="jour" min="1" max="31">
@@ -13,14 +13,14 @@
 			<input onchange="calcAge()" type="number" id="mois" name="mois" min="1" max="12"> -->
 			<label for="annee">Année</label>
 			<input onchange="calcAge()" type="number" id="annee" name="annee" value="1900" min="1900" max="2100">
-	
+		<br />
 		<br />
 		<table>
 			<thead>
 				<tr>
-					<th>Planètes</th>
-					<th>Periode de<br />révolution</th>
-					<th>Mon âge</th>
+					<th>Les<br />Planètes</th>
+					<th>Periode de<br />révolution<br />en jours</th>
+					<th>Mon âge<br />sur...</th>
 				</tr>
 			</thead>
 			<tbody>

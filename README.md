@@ -35,7 +35,7 @@ ageSurChaquePlanetes = [
 8 => (ageEnAnnees * joursRevolutionPlanete['Pluton'])
 ];
 
-TANQUE i n'est pas supérieur ou égale à 8
+TANTQUE i n'est pas supérieur ou égale à 8
 	|
 	ALORS Afficher ageSurChaquePlanetes[i];
 ```

@@ -25,7 +25,7 @@ ageEnAnnees = anneeActuel - anneeDeNaissance;
 
 ageSurChaquePlanetes = [
 0 => (ageEnAnnees * joursRevolutionPlanete['Mercure'])
-1 => (ageEnAnnees * joursRevolutionPlanete['Venue'])
+1 => (ageEnAnnees * joursRevolutionPlanete['Venus'])
 2 => (ageEnAnnees * joursRevolutionPlanete['Terre'])
 3 => (ageEnAnnees * joursRevolutionPlanete['Mars'])
 4 => (ageEnAnnees * joursRevolutionPlanete['Jupiter'])
